@@ -1,0 +1,9 @@
+CLASS 1:    basics of numpy
+CLASS 2:    Creating Arrays Like a Pro
+CLASS 4:    INDEXING
+CLASS 5:    Fancy Indexing & Boolean Indexing
+CLASS 6:    Mathematical , statsitical functions
+CLASS 7:    SLICING ADVANCED
+CLASS 8:    MATRIX OPERATIONS
+CLASS 9:    RESHAPE, FLATTENING , STACKING ARRAYS
+CLASS 11:   NumPy Class 10: Broadcasting
