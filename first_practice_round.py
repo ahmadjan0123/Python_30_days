@@ -105,7 +105,7 @@ while state:
         print(f"Name not found")
         break
 '''
-
+'''
 st3 = {
     "Ali": {"marks": 78, "age": 18},
     "Sara": {"marks": 92, "age": 19},
@@ -149,3 +149,30 @@ while state:
         state = False
     else:
         print("Invalid operation entered")
+
+'''
+
+
+
+s = {
+    "Ali": {"marks": 78, "age": 18},
+    "Sara": {"marks": 92, "age": 19},
+    "Ahmed": {"marks": 85, "age": 18}
+}
+
+s['zain'] =  {"marks": 88, "age": 20}
+
+#print(s['zain'])
+
+for e in s:
+    s[e]['marks'] +=5
+to_remove = []
+for r in s:
+    if s[r]['marks'] < 80:
+        to_remove.append(r)
+
+for w in to_remove:
+    del s[w]
+print(" ")
+for o in s:
+    print(o)
